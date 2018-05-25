@@ -1,1 +1,3 @@
-# Fuzzy-Matching-Bacterium-Strains
+# Fuzzy-Matching-Bacteria-Strains
+
+This project simplifies hazard risk level classification of bacteria strains. The code was written in Python and it uses a master library of bacteria strains and risk levels (bacteria strain risk library.xlsx). Often times, bacteria strains are spelled incorrectly, so the package fuzzywuzzy was used to for fuzzy matching. As opposed to binary matching, fuzzywuzzy uses statistical models to find how closely matched a string is with another string. Out of all matched strings, the one with the highest match ratio is chosen as an output. The percentage match and library strain are also outputted.
